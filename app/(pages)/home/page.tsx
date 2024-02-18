@@ -5,7 +5,7 @@ export default async function Home() {
   return (
     <main className="container p-16 max-w-screen max-h-screen">
       <div className="flex flex-row h-full">
-        <div className="flex-1 bg-red-300">
+        <div className="flex-1">
           <h2 className="text-5xl">My Name is <span className="font-bold">Sanjeewa Milan</span></h2>
 
           <h3 className="text-3xl italic ">Software Engineer </h3>

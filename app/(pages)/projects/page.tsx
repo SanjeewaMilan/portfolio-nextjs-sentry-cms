@@ -6,7 +6,7 @@ export default async function Projects() {
   return (
     <main className="">
       {projects.map((project) => (
-        <div className="flex items-center">{project.name}</div>
+        <div className="flex items-center" key={project._id}>{project.name}</div>
       ))}
     </main>
   );
